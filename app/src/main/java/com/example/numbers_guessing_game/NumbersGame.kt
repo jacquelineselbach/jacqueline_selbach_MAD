@@ -16,3 +16,5 @@ fun countCorrectPositions(guess: String, generatedNumber: String): Int {
     return guess.zip(generatedNumber).count { (g, n) -> g == n }
 }
 
+
+

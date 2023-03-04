@@ -89,3 +89,4 @@ class NumbersGameTest {
         assertEquals(1, result)
     }
 }
+
