@@ -1,7 +1,5 @@
 package com.example.numbers_guessing_game
-
 import org.junit.Test
-
 import org.junit.Assert.*
 
 class NumbersGameTest {
@@ -88,5 +86,6 @@ class NumbersGameTest {
         val result = countCorrectPositions(guess, generatedNumber)
         assertEquals(1, result)
     }
+
 }
 
